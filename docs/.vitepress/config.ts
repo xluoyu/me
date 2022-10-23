@@ -8,7 +8,7 @@ export default {
     nav: [
       { text: '笔记', link: '/guide/' },
       { text: '八股文', link: '/interview/'},
-      { text: '代码块', link: '/codes/' },
+      { text: '代码块', link: '/code/' },
       { text: '关于我', link: '/about' }
     ],
     socialLinks: [
@@ -22,8 +22,9 @@ export default {
         {
           text: '随笔',
           link: '/guide/',
+          collapsible: true,
           items: [
-            {text: '这是一个标题党哈哈哈哈哈哈', link: '/guide/'}
+            {text: '这是一个标题党哈哈哈哈哈哈', link: '/guide/第一篇笔记.md'}
           ]
         }
       ],
@@ -33,11 +34,13 @@ export default {
           items: []
         }
       ],
-      '/codes/': [
+      '/code/': [
         {
-          text: '还没型号',
+          text: '常用代码',
           link: '/code/',
-          items: []
+          items: [
+            {text: '大屏适配', link: '/code/大屏适配.md'}
+          ]
         }
       ]
     }
