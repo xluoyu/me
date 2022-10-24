@@ -7,7 +7,7 @@ export default {
     lastUpdatedText: 'Updated Date',
     nav: [
       { text: '笔记', link: '/guide/' },
-      { text: '八股文', link: '/interview/'},
+      { text: '面试篇', link: '/interview/'},
       { text: '代码块', link: '/code/' },
       { text: '关于我', link: '/about' }
     ],
@@ -31,7 +31,17 @@ export default {
       '/interview/': [
         {
           text: 'HTML',
-          items: []
+          collapsible: true,
+          items: [
+            {text: '地址栏输入 URL 敲下回车后发生了什么', link: '/interview/html/after_url.md'}
+          ]
+        },
+        {
+          text: 'Vue篇',
+          collapsible: true,
+          items: [
+            {text: 'v-show与v-if', link: '/interview/vue/v-show&v-if.md'}
+          ]
         }
       ],
       '/code/': [
