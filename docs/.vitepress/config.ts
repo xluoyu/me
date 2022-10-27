@@ -24,7 +24,6 @@ export default {
           link: '/guide/',
           collapsible: true,
           items: [
-            {text: '这是一个标题党哈哈哈哈哈哈', link: '/guide/第一篇笔记.md'},
             {text: '记录一个刹车交互', link: '/guide/pixi_gsap.md'}
           ]
         }
@@ -41,7 +40,9 @@ export default {
           text: 'Vue篇',
           collapsible: true,
           items: [
-            {text: 'v-show与v-if', link: '/interview/vue/v-show&v-if.md'}
+            {text: 'v-show与v-if', link: '/interview/vue/v-show&v-if.md'},
+            {text: 'vue中的diff算法', link: '/interview/vue/vue-diff.md'},
+            {text: 'Vue3的性能提升', link: '/interview/vue/vue3.md'}
           ]
         }
       ],

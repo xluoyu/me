@@ -396,3 +396,10 @@ createActionButton(action) {
 }
 ```
 
+## 最后
+
+[项目预览](https://xluoyu.github.io/pixi-brake/)
+
+[源码地址](https://github.com/xluoyu/pixi-brake)
+
+[【大帅老猿】前端canvas动效开发实战，PIXI+GSAP仿写vanmoof刹车动效。直播回放](https://www.bilibili.com/video/BV1q34y1n7dA/)
