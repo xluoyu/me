@@ -20,13 +20,22 @@ export default {
     sidebar: {
       '/guide/': [
         {
+          text: '算法',
+          collapsible: true,
+          items: [
+            {text: '路径总和', link: '/guide/leetcode/路径总和.md'},
+            {text: '路径总和 Ⅱ', link: '/guide/leetcode/路径总和Ⅱ.md'},
+            {text: '路径总和 Ⅲ', link: '/guide/leetcode/路径总和Ⅲ.md'},
+          ]
+        },
+        {
           text: '随笔',
           link: '/guide/',
           collapsible: true,
           items: [
-            {text: '记录一个刹车交互', link: '/guide/pixi_gsap.md'}
+            {text: '记录一个刹车交互', link: '/guide/pixi_gsap.md'},
           ]
-        }
+        },
       ],
       '/interview/': [
         {
