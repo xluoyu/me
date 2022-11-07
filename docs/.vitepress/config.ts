@@ -60,7 +60,8 @@ export default {
           text: '常用代码',
           link: '/code/',
           items: [
-            {text: '大屏适配', link: '/code/大屏适配.md'}
+            {text: '大屏适配', link: '/code/大屏适配.md'},
+            {text: '常用的字符串方法', link: '/code/string.md'}
           ]
         }
       ]
