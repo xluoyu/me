@@ -34,6 +34,7 @@ export default {
           collapsible: true,
           items: [
             {text: '记录一个刹车交互', link: '/guide/pixi_gsap.md'},
+            {text: 'web中的点九图', link: '/guide/9.png.md'},
           ]
         },
       ],
