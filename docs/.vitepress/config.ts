@@ -20,15 +20,15 @@ export default {
     sidebar: {
       '/guide/': [
         {
-          text: '关于Vue',
+          text: '读Vue.js设计与实现',
           items: [
-            {text: '01.框架设计的核心要素', link: '/guide/vue/01.框架设计的核心要素.md'}
-            {text: '02.响应式数据的基本实现', link: '/guide/vue/02.响应式数据的基本实现.md'}
-            {text: '03.进一步完善', link: '/guide/vue/03.进一步完善.md'}
-            {text: '04.computed&watch', link: '/guide/vue/04.computed&watch.md'}
-            {text: '05.watch', link: '/guide/vue/05.watch.md'}
-            {text: '06.响应系统篇章总结', link: '/guide/vue/06.响应系统篇章总结.md'}
-            {text: '07.渲染器的设计', link: '/guide/vue/07.渲染器的设计.md'}
+            {text: '01.框架设计的核心要素', link: '/guide/vue/01.框架设计的核心要素.md'},
+            {text: '02.响应式数据的基本实现', link: '/guide/vue/02.响应式数据的基本实现.md'},
+            {text: '03.进一步完善', link: '/guide/vue/03.进一步完善.md'},
+            {text: '04.computed&watch', link: '/guide/vue/04.computed&watch.md'},
+            {text: '05.watch', link: '/guide/vue/05.watch.md'},
+            {text: '06.响应系统篇章总结', link: '/guide/vue/06.响应系统篇章总结.md'},
+            {text: '07.渲染器的设计', link: '/guide/vue/07.渲染器的设计.md'},
             {text: '08.diff', link: '/guide/vue/08.diff.md'}
           ]
         },
