@@ -20,6 +20,19 @@ export default {
     sidebar: {
       '/guide/': [
         {
+          text: '关于Vue',
+          items: [
+            {text: '01.框架设计的核心要素', link: '/guide/vue/01.框架设计的核心要素.md'}
+            {text: '02.响应式数据的基本实现', link: '/guide/vue/02.响应式数据的基本实现.md'}
+            {text: '03.进一步完善', link: '/guide/vue/03.进一步完善.md'}
+            {text: '04.computed&watch', link: '/guide/vue/04.computed&watch.md'}
+            {text: '05.watch', link: '/guide/vue/05.watch.md'}
+            {text: '06.响应系统篇章总结', link: '/guide/vue/06.响应系统篇章总结.md'}
+            {text: '07.渲染器的设计', link: '/guide/vue/07.渲染器的设计.md'}
+            {text: '08.diff', link: '/guide/vue/08.diff.md'}
+          ]
+        },
+        {
           text: '算法',
           collapsible: true,
           items: [
@@ -33,8 +46,8 @@ export default {
           link: '/guide/',
           collapsible: true,
           items: [
-            {text: '记录一个刹车交互', link: '/guide/pixi_gsap.md'},
-            {text: 'web中的点九图', link: '/guide/9.png.md'},
+            {text: '记录一个刹车交互', link: '/guide/other/pixi_gsap.md'},
+            {text: 'web中的点九图', link: '/guide/other/9.png.md'},
           ]
         },
       ],
